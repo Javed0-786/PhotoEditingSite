@@ -36,6 +36,8 @@ def home():
     return render_template("index.html")
 
 
+# A very simple Flask Hello World app for you to get started with...
+
 @app.route("/about")
 def about():
     return render_template("about.html")
@@ -74,10 +76,9 @@ def edit():
 def how():
     return render_template("how.html")
 
+# adding comment
+
 
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
-
-
-app.run(debug=True)
